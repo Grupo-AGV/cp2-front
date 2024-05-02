@@ -1,0 +1,7 @@
+Membros:
+- Arthur Chacon Garcia Spedine
+ RM: 554489
+- Guilherme Damásio Roselli
+ RM: 555873
+- Vinícius de Oliveira Coutinho
+ RM: 556182
