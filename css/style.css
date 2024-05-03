@@ -76,7 +76,7 @@ main nav a {
 }
 
 main nav a:hover {
-    background-color: #005266;
+    background-color: #0499be;
 }
 
 section {
@@ -99,22 +99,8 @@ section p {
     font-size: 1.3rem;
 }
 
-#sobrenos h4 {
-    margin: 7px 5px 0;
-}
-
-#sobrenos ul {
-    list-style-type: none;
-    padding: 0 30px;
-}
-
-#sobrenos ul li {
-    margin: 4px;
-    font-size: 1.3rem;
-}
-
 .vantagens ul {
-    margin: 10px 0;
+    margin: 10px 0 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -140,6 +126,20 @@ section p {
 .vantagens ul li:hover {
     cursor: pointer;
     transform: scale(1.05);
+}
+
+#sobrenos h4 {
+    margin: 7px 5px 0;
+}
+
+#sobrenos ul {
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+#sobrenos ul li {
+    margin: 4px;
+    font-size: 1.3rem;
 }
 
 footer {
