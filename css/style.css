@@ -13,11 +13,54 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #001228;
+    padding: 10px;
+}
+
+header img {
+    display: block;
+    margin: 0 30px;
+}
+
+header div {
+    margin: 0 30px;
+    display: flex;
+    gap: 30px;
+}
+
+header div a {
+    color: white;
+    text-decoration: none;
 }
 
 body {
     height: 100vh;
     flex-grow: 1;
+    background-color: #005266;
+}
+
+main {
+    height: 100vh;
+    flex-grow: 1;
+}
+
+main nav {
+    background-color: #001228;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main nav a {
+    width: 120px;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.45s ease;
+}
+
+main nav a:hover {
     background-color: #005266;
 }
 
