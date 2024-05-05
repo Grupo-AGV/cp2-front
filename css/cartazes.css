@@ -51,6 +51,7 @@ header div a {
 main{
   display: flex;
   flex-wrap: wrap;
+  justify-content:center;
     
 
 }
@@ -66,8 +67,10 @@ main{
     flex: 1;
 }
 .box3{
+    padding: 20px;
     margin-top: 15%;
-
+    flex:1;
+    text-align: center;
 }
 .sinopse{
     display: flex;
