@@ -108,6 +108,7 @@ section img {
     height: 234px;
     border-radius: 9px;
     margin: 0 9px;
+    box-shadow: 0 1px 8px black;
     /* Mantém a proporção original da imagem */
 }
 

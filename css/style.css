@@ -93,7 +93,8 @@ section {
 }
 section .row img{
     width: 400px;
-
+    border-radius: 9px;
+    box-shadow: 0 1px 8px black;
 }
 
 section .row {
