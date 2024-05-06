@@ -46,6 +46,7 @@ header {
 header div {
     margin: 0 30px;
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -53,6 +54,11 @@ header div a {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+header div #contato {
+    border: 1px solid white;
+    padding: 5px 9px;
 }
 
 main {
@@ -87,21 +93,22 @@ section {
     font-size: 1.4rem;
 }
 
-.row {
+section .row {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
 }
-section .row img{
+
+section .row img {
     width: 400px;
     border-radius: 9px;
     box-shadow: 0 1px 8px black;
 }
 
-section .row {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 25px;
+section .row a:hover {
+    transform: scale(1.04);
 }
 
 section p {
