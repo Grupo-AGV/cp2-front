@@ -104,10 +104,11 @@ section .titulo {
 
 section img {
     /* Garante que as imagens não ultrapassem o contêiner */
-    width: 450px;
+    width: 400px;
     height: 234px;
+    border-radius: 9px;
+    margin: 0 9px;
     /* Mantém a proporção original da imagem */
-    padding: 3px 5%;
 }
 
 section img:hover {
