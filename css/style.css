@@ -87,21 +87,22 @@ section {
     font-size: 1.4rem;
 }
 
-.row {
+section .row {
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 25px;
 }
-section .row img{
+
+section .row img {
     width: 400px;
     border-radius: 9px;
     box-shadow: 0 1px 8px black;
 }
 
-section .row {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 25px;
+section .row a:hover {
+    transform: scale(1.04);
 }
 
 section p {
