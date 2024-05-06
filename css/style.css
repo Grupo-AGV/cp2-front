@@ -46,6 +46,7 @@ header {
 header div {
     margin: 0 30px;
     display: flex;
+    align-items: center;
     gap: 30px;
 }
 
@@ -53,6 +54,11 @@ header div a {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
+}
+
+header div #contato {
+    border: 1px solid white;
+    padding: 5px 9px;
 }
 
 main {
