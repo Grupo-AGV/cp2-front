@@ -44,10 +44,6 @@ header {
     width: 120px;
 }
 
-filme-container{
-
-}
-
 header div {
     margin: 0 30px;
     display: flex;
@@ -69,6 +65,7 @@ main nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 10px;
 }
 
 main nav a {
@@ -88,27 +85,43 @@ main nav a:hover {
     background-color: #0499be;
 }
 
-section {
+.container{
+    padding: 10px 5%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+section h2 {
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+}
+
+.filme {
+    display: flex;
     flex-direction: column;
 }
 
-section .titulo {
-    text-transform: capitalize;
-    text-align: center;
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 100%;
+.filme img {
+    width: 400px;
 }
 
-section img {
-    max-width: 100%;
-    width: 500px;
-    height: auto;
-    padding: 5%;
+.info {
+    padding: 3px 0;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.info a {
+    color: black;
+    text-decoration: underline;
 }
 
 footer {
