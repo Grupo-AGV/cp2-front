@@ -24,6 +24,7 @@ header {
     background-color: #001228;
     padding: 10px;
 }
+
 .logo {
     display: flex;
     align-items: center;
@@ -59,6 +60,10 @@ header div a {
 header div #contato {
     border: 1px solid white;
     padding: 5px 9px;
+}
+
+header div a:hover {
+    transform: scale(1.05);
 }
 
 main {
