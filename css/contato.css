@@ -104,20 +104,28 @@ fieldset label {
     color: white;
 }
 
-fieldset input {
-    display: block;
-    width: 320px;
-    padding: 10px;
-    margin: 10px auto;
-    border-radius: 5px;
-    border: 1px solid #001228;
+fieldset div {
+    flex-direction: column;
 }
 
-fieldset input[type="text"] {
-    height: 90px;
+fieldset input, textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    max-height: 90px;
+    max-width: 400px;
+    resize: vertical;
 }
 
 fieldset input[type="submit"] {
+    display: block;
+    margin: 0 auto 8px;
     width: 90px;
     background-color: #7fa3cf;
     border: 2px solid #001228;
