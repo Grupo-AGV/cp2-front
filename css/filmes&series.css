@@ -7,13 +7,15 @@
     font-family: 'Poppins', sans-serif;
     text-decoration: none;
     scroll-behavior: smooth;
-    
+
 }
+
 body {
     background-color: #0499be;
     min-height: 100vh;
 
 }
+
 header {
     display: flex;
     align-items: center;
@@ -21,12 +23,14 @@ header {
     background-color: #001228;
     padding: 10px;
 }
+
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 9px 10px 0;
 }
+
 .logo h1 {
     color: white;
 }
@@ -38,51 +42,73 @@ header {
 .logo img {
     width: 120px;
 }
+
 header div {
     margin: 0 30px;
     display: flex;
     gap: 30px;
 }
+
 header div a {
     color: white;
     text-decoration: none;
     font-size: 1.1rem;
 }
-nav h1{
-    text-align: center;
-    font-size: 80px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-}
 
 main {
-    margin-top: 100px; /* Adiciona margem superior para deixar espaço para o cabeçalho */
-    display: flex;
-    align-items: center; /* Centraliza verticalmente */
-    min-height: calc(100vh - 150px); /* Define a altura total da janela de visualização menos a altura do cabeçalho e do rodapé */
+    flex-grow: 1;
 }
 
-section{
+main nav {
+    background-color: #001228;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main nav a {
+    width: 120px;
+    text-align: center;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+main nav a:hover {
+    background-color: #0499be;
+}
+
+.pagina-atual {
+    background-color: #0499be;
+}
+
+section {
     display: flex;
     flex-wrap: wrap;
+    padding: 2% 5% 0;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px; 
+    grid-gap: 20px;
     align-items: center;
-    
-    
-}
-section .titulo {
-    text-transform: capitalize;
-    text-align: center; /* Centraliza o texto */
-    font-size: 25px; /* Define o tamanho da fonte */
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    
+    justify-content: center;
+
 
 }
-section img{
-    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner */
+
+section .titulo {
+    text-transform: capitalize;
+    text-align: center;
+    /* Centraliza o texto */
+    font-size: 25px;
+    /* Define o tamanho da fonte */
+}
+
+section img {
+    max-width: 100%;
+    /* Garante que as imagens não ultrapassem o contêiner */
     width: 500px;
-    height: auto; /* Mantém a proporção original da imagem */
+    height: auto;
+    /* Mantém a proporção original da imagem */
     padding: 5%;
 }
 
@@ -92,9 +118,9 @@ footer {
     color: white;
     width: 100%;
     height: 50px;
-    position:relative;
-        left: 0;
-        bottom: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
