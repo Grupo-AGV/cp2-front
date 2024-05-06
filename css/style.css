@@ -151,6 +151,17 @@ section p {
     font-size: 1.3rem;
 }
 
+.videos_destaque div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videos_destaque iframe {
+    width: 320px;
+    height: 180px;
+}
+
 footer {
     margin-top: 30px;
     background-color: #001228;
