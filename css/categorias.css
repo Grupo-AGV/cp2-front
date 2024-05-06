@@ -10,6 +10,16 @@
     transition: all 0.45s ease;
 }
 
+body::-webkit-scrollbar {
+    background-color: #001228;
+	width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	background-color: #046780;
+}
+
 body {
     background-color: #0499be;
     min-height: 100vh;
@@ -127,6 +137,10 @@ section h2 {
 .info a {
     color: black;
     text-decoration: underline;
+}
+
+.info a:hover {
+    transform: scale(1.1);
 }
 
 footer {
