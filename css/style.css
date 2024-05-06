@@ -86,6 +86,11 @@ section {
     margin: auto;
     font-size: 1.4rem;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 section .row img{
     width: 400px;
 
