@@ -78,8 +78,7 @@ main nav a {
 main nav div {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
-    gap: 80px;
+    gap: 11%;
 }
 
 main nav div a {
@@ -120,7 +119,6 @@ main h2 {
     padding: 10px 40px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 .conteudo p {
@@ -128,11 +126,15 @@ main h2 {
     font-size: 1.2rem;
 }
 
-.conteudo h3 {
+.conteudo h3, .elenco_div h3 {
     font-size: 24px;
 }
 
-.conteudo #elenco {
+.elenco_div {
+    padding: 1% 5% 0;
+}
+
+#elenco {
     font-size: 1.2rem;
     padding-left: 40px;
 }
