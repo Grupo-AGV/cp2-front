@@ -92,8 +92,6 @@ section {
     grid-gap: 20px;
     align-items: center;
     justify-content: center;
-
-
 }
 
 section .titulo {
@@ -105,10 +103,9 @@ section .titulo {
 }
 
 section img {
-    max-width: 100%;
     /* Garante que as imagens não ultrapassem o contêiner */
-    width: 500px;
-    height: auto;
+    width: 450px;
+    height: 234px;
     /* Mantém a proporção original da imagem */
     padding: 3px 5%;
 }
