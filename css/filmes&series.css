@@ -13,7 +13,8 @@
 body {
     background-color: #0499be;
     min-height: 100vh;
-
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -109,7 +110,7 @@ section img {
     width: 500px;
     height: auto;
     /* Mantém a proporção original da imagem */
-    padding: 5%;
+    padding: 3px 5%;
 }
 
 footer {
