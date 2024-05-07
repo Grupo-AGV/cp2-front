@@ -126,7 +126,7 @@ main h2 {
 }
 
 .imagem img {
-    width: 500px;
+    width: 250px;
     border-radius: 15px;
 }
 
@@ -181,4 +181,18 @@ footer {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width: 1000px) {
+    .conteudo p {
+        font-size: 1.1rem;
+    }
+
+    #elenco {
+        font-size: 1.1rem;
+    }
+
+    #elenco ul li span{
+        font-size: 1rem;
+    }
 }
